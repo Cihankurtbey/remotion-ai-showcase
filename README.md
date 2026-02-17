@@ -91,7 +91,7 @@ src/
 ### Kurulum
 ```bash
 git clone https://github.com/Cihankurtbey/remotion-ai-showcase.git
-cd neurocanvas-ai-showcas
+cd remotion-ai-showcase
 npm install
 ```
 
