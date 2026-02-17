@@ -1,0 +1,26 @@
+{
+  "name": "neurocanvas-ai-showcase",
+  "version": "1.0.0",
+  "description": "NeuroCanvas - AI Creativity Revolution: A Remotion-powered AI showcase video",
+  "scripts": {
+    "start": "npx remotion studio src/index.ts",
+    "build": "npx remotion render src/index.ts MainVideo out/neurocanvas-showcase.mp4 --codec h264",
+    "render": "npx remotion render src/index.ts MainVideo out/neurocanvas-showcase.mp4 --codec h264",
+    "preview": "npx remotion preview src/index.ts",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.422",
+    "@remotion/cli": "4.0.422",
+    "@remotion/google-fonts": "4.0.422",
+    "@remotion/renderer": "4.0.422",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.422"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
